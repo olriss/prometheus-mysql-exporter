@@ -1,0 +1,5 @@
+  - job_name: "mysql"
+    scrape_interval: 30s
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["localhost:9106"]
